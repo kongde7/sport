@@ -1,0 +1,171 @@
+/* pages/test/test.wxss */
+
+/* 页面整体flex框架样式 */
+.pageflex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* 页面内间距 */
+  padding: 18rpx 0;
+  box-sizing: border-box;
+  background-color: #fcfdff;
+}
+
+/* 卡片总体样式 */
+.card {
+  /* flex默认 */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  /* 自定义 */
+    /* 与胶囊按钮对齐的总宽度是714rpx */
+    width: 714rpx;
+    height: 300rpx;
+    padding: 0 0;
+    margin: 9rpx 0;
+    background-color: #ffffff;
+    /* 圆角矩形调整 */
+    border-radius: 20rpx;
+}
+
+/* 蓝色卡片背景颜色单独变更 */
+.card-blue {
+  background-color: #ecf4ff;
+}
+
+/* 深绿色卡片背景颜色单独变更 */
+.card-breen {
+  background-color: #e9f7f7;
+}
+
+/* 绿色卡片背景颜色单独变更 */
+.card-green {
+  background-color: #e8f9ef;
+}
+
+/* 红色卡片背景颜色单独变更 */
+.card-red {
+  background-color: #fff1e4;
+}
+
+/* 卡片左侧文字区域样式 */
+.cardtext {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-left: 36rpx;
+  box-sizing: border-box;
+}
+
+/* 卡片左侧文字区域slogan行样式 */
+.cardline {
+  /* flex默认 */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: 48rpx;
+  /* 自定义 */
+    /* 与胶囊按钮对齐的总宽度是714rpx */
+    /* width: 714rpx;
+    height: 300rpx;
+    padding: 0 0;
+    margin: 9rpx 0; */
+    /* background-color: #ffffff; */
+}
+
+/* 卡片右侧插画区域样式 */
+.cardpic {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-right: 36rpx;
+}
+
+/* 卡片右侧插画区域样式 */
+.pic {
+  height: 100%;
+  width: 240rpx;
+}
+
+/* 卡片左侧slogan行小图标样式 */
+.picline {
+  height: 100%;
+  width: 48rpx;
+}
+
+/* 卡片左侧文字样式 */
+.title {
+  color: #252525;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+/* 卡片左侧文字样式 */
+.slogan {
+  color: #757a7e;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 12rpx;
+}
+
+/* 按钮通用样式 */
+.btn {
+  width: 180rpx !important;
+  margin: 0 0 !important;
+  padding: 12rpx 24rpx;
+  border-radius: 40rpx;
+  /* background-color: #f7ab5f; */
+  color: #ffffff;
+  font-size: 32rpx;
+}
+
+/* 蓝色按钮背景颜色单独变更 */
+.btn-blue {
+  background-color: #007aff;
+}
+
+/* 蓝色按钮按下时背景颜色单独变更 */
+.btn-blue-press {
+  background-color: #006fe5;
+}
+
+/* 深绿色按钮背景颜色单独变更 */
+.btn-breen {
+  background-color: #38d6d5;
+}
+
+/* 深绿色按钮按下时背景颜色单独变更 */
+.btn-breen-press {
+  background-color: #31bdbd;
+}
+
+/* 绿色按钮背景颜色单独变更 */
+.btn-green {
+  background-color: #38d377;
+}
+
+/* 绿色按钮按下时背景颜色单独变更 */
+.btn-green-press {
+  background-color: #32ba69;
+}
+
+/* 红色按钮背景颜色单独变更 */
+.btn-red {
+  background-color: #f7ab5f;
+}
+
+/* 红色按钮按下时背景颜色单独变更 */
+.btn-red-press {
+  background-color: #de9954;
+}

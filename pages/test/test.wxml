@@ -1,0 +1,75 @@
+<!--pages/test/test.wxml-->
+<!-- <view class="container">
+  <text>HelloWorld！</text>
+</view>
+<view>
+  <text>HelloWorld！</text>
+  <button class="bigcard2">心率监测</button>
+</view> -->
+
+<view class="pageflex">
+  <!-- 卡片0 -->
+  <view class="card card-breen">
+    <!-- 卡片左侧文字 -->
+    <view class="cardtext">
+      <view class="cardline">
+        <image class="picline" src="{{fav_breen}}" mode="aspectFit"></image>
+        <text class="slogan">当前设备状态</text>
+      </view>
+      <text class="title">{{status}}</text>
+      <button class="btn btn-breen" hover-class="btn-breen-press" bind:tap="btntest">详细信息</button>
+    </view>
+    <!-- 卡片右侧图标 -->
+    <view class="cardpic">
+      <image class="pic" src="{{dev}}" mode="aspectFit"></image>
+    </view>
+  </view>
+  <!-- 卡片1 -->
+  <view class="card card-blue">
+    <!-- 卡片左侧文字 -->
+    <view class="cardtext">
+      <view class="cardline">
+        <image class="picline" src="{{fav_blue}}" mode="aspectFit"></image>
+        <text class="slogan">预防新型冠状病毒</text>
+      </view>
+      <text class="title">体温检测</text>
+      <button class="btn btn-blue" hover-class="btn-blue-press">开始测量</button>
+    </view>
+    <!-- 卡片右侧图标 -->
+    <view class="cardpic">
+      <image class="pic" src="{{temp}}" mode="aspectFit"></image>
+    </view>
+  </view>
+  <!-- 卡片2 -->
+  <view class="card card-red">
+    <!-- 卡片左侧文字 -->
+    <view class="cardtext">
+      <view class="cardline">
+        <image class="picline" src="{{fav_red}}" mode="aspectFit"></image>
+        <text class="slogan">测量实时和静息心率</text>
+      </view>
+      <text class="title">心电图（EGC）</text>
+      <button class="btn btn-red" hover-class="btn-red-press">立刻查看</button>
+    </view>
+    <!-- 卡片右侧图标 -->
+    <view class="cardpic">
+      <image class="pic" src="{{heart}}" mode="aspectFit"></image>
+    </view>
+  </view>
+  <!-- 卡片3 -->
+  <view class="card card-green">
+    <!-- 卡片左侧文字 -->
+    <view class="cardtext">
+      <view class="cardline">
+        <image class="picline" src="{{fav_green}}" mode="aspectFit"></image>
+        <text class="slogan">实时记录活动量</text>
+      </view>
+      <text class="title">运动步数</text>
+      <button class="btn btn-green" hover-class="btn-green-press">了解详情</button>
+    </view>
+    <!-- 卡片右侧图标 -->
+    <view class="cardpic">
+      <image class="pic" src="{{sport}}" mode="aspectFit"></image>
+    </view>
+  </view>
+</view>

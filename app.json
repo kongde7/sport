@@ -1,13 +1,37 @@
 {
+  "entryPagePath": "pages/test/test",
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/test/test"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#357ae1",
+    "navigationBarTitleText": "无线运动传感器节点",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#252525",
+    "selectedColor": "#252525",
+    "backgroundColor": "#f2f2f2",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/test/test",
+      "text": "实时测量",
+      "iconPath": "icon/bar1.png",
+      "selectedIconPath": "icon/bar1-press.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "历史数据",
+      "iconPath": "icon/bar2.png",
+      "selectedIconPath": "icon/bar2-press.png"
+    }]
+  },
+  "useExtendedLib": {
+    "weui": true
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
